@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title> a simple todo list </title>
+  <meta name="description" content="Todo List">
+  <meta name="author" content="Utsav Shah with NextCapital">
+
+</head>
+
+<body ng-app = "todolist">
+
+	<h1 class = "center">
+		a simple todo list 
+	</h1>
+
+	<div ng-controller = 'todo'>
+
+
+		<div id = "login" class = "center">
+			<h3>
+
+				Sign in
+
+			</h3>
+
+			<form>
+
+				<input type="email" ng-model = "email" placeholder="email"></input>
+
+				<input type="password" ng-model = "password" placeholder="password"></input>
+
+				<button ng-submit="startSession()" ng-click="startSession()">go</button>
+
+				<button ng-click="createUser()">sign up</button>
+
+			</form>
+
+		</div>
+
+		<div id = 'todo' class = "center">
+
+		<ul ui-sortable ng-model="todos">
+
+			<li ng-repeat="item in todos"> 
+
+				<input type="checkbox" ng-model="item.is_complete" ng-change="updateTodo({{item}})"> 
+
+				<span class="completed-{{item.is_complete}}">{{item.description}} </span>
+
+			</li>
+
+		</ul>
+
+			<input ng-model="addTodoForm" type="text" placeholder="add a todo" ></input> <button ng-click="createTodo()">add</button>
+
+		</div>
+
+	</div>
+
+
+</body>
+
+  <link rel="stylesheet" href="css/default.css">
+
+  <script src='js/todo.client.js'></script>
+
+  <script src='http://cdn.jsdelivr.net/g/jquery@1,jquery.ui@1.10%28jquery.ui.core.min.js+jquery.ui.widget.min.js+jquery.ui.mouse.min.js+jquery.ui.sortable.min.js%29,angularjs@1.2,angular.ui-sortable'></script>
+
+  <script src="js/script.js"></script>
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'
+
+</html>
