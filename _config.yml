@@ -1,12 +1,11 @@
 # Permalinks
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Utsav's Blog
+tagline:             Few thoughts on many things
+url:                 http://www.utsavshah.com
 gems:                [jekyll-paginate]
 paginate:            5
 paginate_path:       "page:num"
@@ -21,11 +20,11 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Utsav Shah
+  url:               www.utsavshah.com
+  email:             utsavkunalshah@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/Utsav2/utsav2.github.io
