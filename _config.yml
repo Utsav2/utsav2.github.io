@@ -6,10 +6,12 @@ permalink:           pretty
 title:               Utsav's Blog
 tagline:             Few thoughts on many things
 url:                 http://www.utsavshah.com
-gems:                [jekyll-paginate]
+gems:                [jekyll-paginate, redcarpet, pygments]
 paginate:            5
 paginate_path:       "page:num"
 baseurl:             ""
+markdown:            redcarpet
+highlighter:         pygments
 
 # Assets
 #
