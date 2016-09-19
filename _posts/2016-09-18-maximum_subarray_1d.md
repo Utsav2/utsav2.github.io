@@ -58,9 +58,7 @@ def kadane(a):
   return result
 ```
 
-<div class="mobile">
 Here's an example of running through this algorithm:
-</div>
 
 <iframe style="position: relative; height: 320px; width: 561px; max-width: 100%" src="/slides/kadane-1d" frameBorder="0">
   Please use a newer browser!
