@@ -4,7 +4,7 @@ permalink:           pretty
 
 # Setup
 title:               Utsav's Blog
-tagline:             Few thoughts on many things
+tagline:             
 url:                 http://www.utsavshah.com
 gems:                [jekyll-paginate, redcarpet, pygments]
 paginate:            5
