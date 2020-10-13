@@ -4,5 +4,5 @@ title: About
 ---
 
 <p class="message">
-  Hello World
+  I'm a software engineer interested in keeping systems up and self correcting.
 </p>
