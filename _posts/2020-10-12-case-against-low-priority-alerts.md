@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The case against Low Priority Alerts
+title: The Case against Low Priority Alerts
 ---
 
 PagerDuty and other alerting systems let users specify the priority of an alert. High priority alerts are supposed to page an engineer ("the site is down"), and low priority alerts are meant to warn users of impending issues - PagerDuty's example for a low priority alert is ["An SSL certificate is due to expire in one week"](https://response.pagerduty.com/oncall/alerting_principles/#an-ssl-certificate-is-due-to-expire-in-one-week). In theory, a low priority alert is one that an oncall engineer looks at when there's no high priority alerts to take care of, and resolves their root cause via some kind of change.
