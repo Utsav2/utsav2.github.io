@@ -7,4 +7,4 @@ I'm a software engineer interested in building simple, self correcting systems t
 
 I've also [written](https://dropbox.tech/application/speeding-up-a-git-monorepo-at-dropbox-with--200-lines-of-code) for the Dropbox [tech blog](https://dropbox.tech/tech/2019/05/athena-our-automated-build-health-management-system). 
 
-[Twitter](https://twitter.com/utsav_sha).
+[Twitter](https://twitter.com/utsav_sha). [Email](mailto:utsavkunalshah+website@gmail.com)
