@@ -1,3 +1,8 @@
+---
+layout: post
+title: Reflecting on a Hundred Days of a Software Podcast
+---
+
 It’s been about a hundred days since the first episode of my software podcast “[Software at Scale](https://www.softwareatscale.dev/)” came out. A lot of friends and co-workers have asked me why I started it, and what I’ve learned so far, so I figured I’d share.
 
   
