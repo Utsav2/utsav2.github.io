@@ -10,7 +10,8 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
     <a href="{{ site.baseurl }}{{ post.url }}">
-      {{ post.date | date_to_xmlschema }} - {{ post.title }}
+      {{ post.date }} - {{ post.title }}
     </a>
+    </br>
   {% endfor %}
 </div>
