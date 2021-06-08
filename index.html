@@ -5,12 +5,10 @@ title: Home
 
 <h2><a href="/about">About</a></h2>
 
-<hr/>
-
 <div class="posts">
   {% for post in paginator.posts %}
     <a href="{{ site.baseurl }}{{ post.url }}">
-      {{ post.date }} - {{ post.title }}
+      {{ post.date | date: "%Y-%m-%d" }} - {{ post.title }}
     </a>
     </br>
   {% endfor %}
