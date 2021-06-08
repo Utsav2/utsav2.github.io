@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I'm a software engineer interested in building simple, self correcting and reliable systems. I'm interested in developer productivity, build systems, technical management and more. I work at [Vanta](http://vanta.com/).
+I'm a software engineer interested in building simple, self correcting and reliable systems. I'm interested in developer productivity, build systems, technical management and more. I work at [Vanta](http://vanta.com/) as a full-stack engineer.
 
 I used to work at Dropbox, and was responsible for enabling product velocity and ensuring reliability of our monolith Python web application, and larger async systems like [Cape](https://dropbox.tech/infrastructure/cape-technical-deep-dive).
 
