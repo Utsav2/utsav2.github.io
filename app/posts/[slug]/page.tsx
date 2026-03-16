@@ -3,7 +3,6 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import rehypeHighlight from "rehype-highlight";
 import { getAllPostSlugs, getPost } from "@/lib/posts";
 import { siteConfig } from "@/lib/site";
-import { Bio } from "@/components/Bio";
 import { Slideshow } from "@/components/Slideshow";
 import type { Metadata } from "next";
 
@@ -66,8 +65,6 @@ export default async function PostPage({
           }}
         />
       </div>
-
-      <Bio />
     </article>
   );
 }

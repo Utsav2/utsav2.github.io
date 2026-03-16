@@ -20,5 +20,3 @@ A good counter-argument is that a strong team with well defined processes for on
 Does that mean we should get rid of low priority alerts entirely? I strive to keep as few low priority alerts as possible in production services, and I'm not sure I have a better answer than that. Low priority alerts can be useful if they can automatically pause a deployment pipeline. For example, an alert for slightly elevated error rate is a great indicator to stop a rollout while it's on canary.
 
 In general, maintain high standards for low priority alerts - would we care if this alert didn't actually work? Are we giving ourselves a false sense of security by adding this alert? What standards do we have for existing low priority alerts? Will we rigorously tune this alert if it's noisy? Hopefully this helps you decide on an alternative or is something to think about.
-
--------

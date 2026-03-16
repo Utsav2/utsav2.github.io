@@ -10,5 +10,3 @@ title: Blogs about blockchain
 [Potential applications of blockchains](http://a16z.com/2014/01/21/why-bitcoin-matters-2/)
 
 [A list on bitcoin research](https://docs.google.com/spreadsheets/d/1VaWhbAj7hWNdiE73P-W-wrl5a0WNgzjofmZXe0Rh5sg/htmlview?usp=sharing&pli=1&sle=true)
-
--------
